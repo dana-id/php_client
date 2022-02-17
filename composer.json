@@ -1,0 +1,32 @@
+{
+    "name": "dana-id/php_client",
+    "description": "PHP Wrapper for DANA Payment API.",
+    "homepage": "https://dana.id",
+    "version": "1.0",
+    "type": "library",
+    "license":"MIT",
+    "authors": [
+        {
+            "name": "I Made Bayu Permana Putra",
+            "email": "i.putra@dana.id"
+        },
+        {
+            "name": "Gavin Clive",
+            "email": "gavin.clive@dana.id"
+        },
+        {
+            "name": "Shelly Sinaga",
+            "email": "shelly.sinaga@dana.id"
+        },
+        {
+            "name": "Joshua Sitanggang",
+            "email": "joshua.sitanggang@dana.id"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": { "DANA\\" : "/DANA" }
+    }
+}
