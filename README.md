@@ -115,7 +115,7 @@ This login function provides users to login with DANA Account on the Merchant si
 
 ```php
 
-$generateLoginUrl = \DANA\Auth::generateLoginUrl;
+$generateLoginUrl = \DANA\Auth::generateLoginUrl();
 
 ```
 
